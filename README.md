@@ -11,8 +11,9 @@ Configuration for sensors ITE IT8686E Super IO Sensors
 ```
 sudo modprobe --verbose it87 force_id=0x8733
 ```
-create file /etc/modprobe.d/it87.conf
-´´´
+
+create file /etc/modprobe.d/it87.conf  
+```
 options it87 force_id=0x8733  
 
-´´´
+```
