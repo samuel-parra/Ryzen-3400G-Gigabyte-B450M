@@ -1,4 +1,5 @@
-# Ryzen-3400G-Gigabyte-B450M
+# Ryzen-3400G-Gigabyte-B450M  
+
 Ryzen 5 3400G Gigabyte B450M DS3H
 
 
@@ -21,8 +22,8 @@ Or add in rc.local
 ## Grub
 The Grub modificator for Ryzen
 ```
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"` 
-GRUB_CMDLINE_LINUX="idle=nomwait acpi_enforce_resources=lax"  
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+GRUB_CMDLINE_LINUX="idle=nomwait acpi_enforce_resources=lax iommu=soft"
 ```
 
 ## Audio settings
