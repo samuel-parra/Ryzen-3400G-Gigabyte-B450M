@@ -35,11 +35,26 @@ options snd-hda-intel model=dual-codecs index=1,0 enable=1
 ```
 ### Pulse Audio
 in /etc/pulse/daemon.conf  change  
+
 ```
 ; default-sample-channels = 2  
 
 ```
-to 
+to  
+
 ```
 default-sample-channels = 6  
+```
+
+### Change evolution (gnome) default software
+
+for query  
+```
+gio mime application/pdf
+```
+
+change
+
+```
+gio mime application/pdf okularApplication_pdf.desktop
 ```
